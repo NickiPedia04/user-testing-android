@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="container_background">#D4E0FF</color>
+    <color name="editText_textColor_logIn">#7687B7</color>
+    <color name="editText_textColor_signUp">#D4E0FF</color>
+    <color name="button_color">#7687B7</color>
+</resources>

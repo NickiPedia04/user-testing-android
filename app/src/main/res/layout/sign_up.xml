@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/logInTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:fontFamily="@font/lexend"
+        android:textSize="36dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/pleaseSignInTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Sign up to Log in"
+        android:textSize="16dp"
+        android:fontFamily="@font/lexend"
+    />
+
+    <EditText
+        android:id="@+id/usernameET"
+        style="@style/customEditTextSignUp"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:hint="Username"
+        android:inputType="text"
+        android:fontFamily="@font/lexend"
+        android:layout_marginTop="30dp"/>
+
+
+    <EditText
+        android:id="@+id/emailET"
+        style="@style/customEditTextSignUp"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:inputType="text"
+        android:fontFamily="@font/lexend"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/passwordET"
+        style="@style/customEditTextSignUp"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:inputType="text"
+        android:fontFamily="@font/lexend"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/logInBtn"
+        style="@style/customButton"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:hint="Sign Up"
+        android:fontFamily="@font/lexend"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/haveAccountTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Doesn't have an account yet? Sign Up"
+        android:fontFamily="@font/lexend"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</LinearLayout>

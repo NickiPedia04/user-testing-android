@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="customContainerBackground">
+        <item name="background">@drawable/container_rounded_corners</item>
+        <item name="backgroundColor">@color/container_background</item>
+    </style>
+</resources>
